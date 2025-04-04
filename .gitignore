@@ -1,6 +1,7 @@
 # Custom
 */marginal-carbon-intensity/*
-marg-*.csv
+data/intensity/*marg*.csv
+data/intensity/out/*marg*.csv
 */raw-traces/*
 
 # Byte-compiled / optimized / DLL files
