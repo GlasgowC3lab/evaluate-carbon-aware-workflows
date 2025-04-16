@@ -2,7 +2,6 @@
 
 tasks=( fastqc trimgalore fastp bowtie2 samtools_stats )
 governors=( powersave ondemand performance )
-outdir="$HOME/journal-paper/tasks/$task/output"
 datadir="$HOME/journal-paper/tasks/data"
 task_no=0
 no_tasks=${#tasks[@]}
@@ -31,15 +30,15 @@ setupSamtoolsStatsFiles () {
 
 while [ $task_no -ne $no_tasks ]
 do
-    if [ "$task" == "fastqc" ]; then
+    if [ "$task" = "fastqc" ]; then
         setupFastqcFiles
     fi
 
-    if [ "$task" == "bowtie2" ]; then
+    if [ "$task" = "bowtie2" ]; then
         setupBowtieFiles
     fi
 
-    if [ "$task" == "samtools_stats" ]; then
+    if [ "$task" = "samtools_stats" ]; then
         setupSamtoolsStatsFiles
     fi
 
@@ -47,7 +46,7 @@ do
     do
         sudo cpupower frequency-set --governor $gov
         ./run-task.sh ${tasks[$task_no]}
-        mv $outdir "$HOME/journal-paper/tasks/$task/output-$gov"
+        mv "$HOME/journal-paper/tasks/$task/output" "$HOME/journal-paper/tasks/$task/output-$gov"
     done
 
     task_no=$(($task_no+1))
