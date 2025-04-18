@@ -7,8 +7,8 @@
 # storeTrace TASK ITERATION
 storeTrace () {
     mkdir -p "$maindir/output"
-    cp task-trace.csv $maindir/output
-    cp $task-$iteration.log $maindir/output
+    mv task-trace.csv $maindir/output
+    mv $task-$iteration.log $maindir/output
     mv $maindir/output/task-trace.csv $maindir/output/$1-$2.csv
 }
 
@@ -19,11 +19,11 @@ cleanFolder () {
 
 task=$1
 maindir="$HOME/journal-paper/tasks/$task"
-fastqc_data=( ERR018547_1.fastq.gz ERR018547_2.fastq.gz )
+fastqc_data=( ERR034564_1.fastq.gz ERR034564_2.fastq.gz )
 bowtie2_data=( chrMT_sequences_2534.20160101.fasta )
-fastp_data=( ERR018547_1.fastq.gz )
-samtools_stats_data=( HG00171.hg38.cram HG00171.hg38.cram.crai )
-trimgalore_data=( ERR018547_1.fastq.gz ERR018547_2.fastq.gz )
+fastp_data=( ERR034564_1.fastq.gz )
+samtools_stats_data=( HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram.crai )
+trimgalore_data=( ERR034564_1.fastq.gz ERR034564_2.fastq.gz )
 
 # Set-Up
 find $maindir -type f -exec sed -i 's/REPLACE_HOME/$HOME/g' {} +

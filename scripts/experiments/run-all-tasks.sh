@@ -12,8 +12,8 @@ cleanDataFolder () {
 
 setupFastqcFiles () {
     cleanDataFolder
-    wget 'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR018/ERR018547/ERR018547_1.fastq.gz' -P "$datadir/"
-    wget 'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR018/ERR018547/ERR018547_2.fastq.gz' -P "$datadir/"
+    wget 'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR034/ERR034564/ERR034564_1.fastq.gz' -P "$datadir/"
+    wget 'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR034/ERR034564/ERR034564_2.fastq.gz' -P "$datadir/"
 }
 
 setupBowtieFiles () {
@@ -24,8 +24,8 @@ setupBowtieFiles () {
 
 setupSamtoolsStatsFiles () {
     cleanDataFolder
-    wget 'https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1KG_ONT_VIENNA/hg38/HG00171.hg38.cram' -P "$datadir/"
-    wget 'https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1KG_ONT_VIENNA/hg38/HG00171.hg38.cram.crai' -P "$datadir/"
+    wget 'ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/FIN/HG00171/exome_alignment/HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram' -P "$datadir/"
+    wget 'ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/FIN/HG00171/exome_alignment/HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram.crai' -P "$datadir/"
 }
 
 while [ $task_no -ne $no_tasks ]
