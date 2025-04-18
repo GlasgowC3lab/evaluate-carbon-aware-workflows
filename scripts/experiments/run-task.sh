@@ -19,29 +19,14 @@ cleanFolder () {
 
 task=$1
 maindir="$HOME/journal-paper/tasks/$task"
-fastqc_data=( ERR034564_1.fastq.gz ERR034564_2.fastq.gz )
+fastqc_data=( ERR034564_1.fastq.gz ERR034564_2.fastq.gz )  # currently runs in <2m (!)
 bowtie2_data=( chrMT_sequences_2534.20160101.fasta )
-fastp_data=( ERR034564_1.fastq.gz )
+fastp_data=( ERR034564_1.fastq.gz )  # runs in 
 samtools_stats_data=( HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram.crai )
 trimgalore_data=( ERR034564_1.fastq.gz ERR034564_2.fastq.gz )
 
 # Set-Up
-find $maindir -type f -exec sed -i 's/REPLACE_HOME/$HOME/g' {} +
 cleanFolder
-
-declare -n files=$task"_data"
-
-file_no=1
-for file in ${files[@]}
-do
-    find $maindir -type f -exec sed -i 's/REPLACE_INPUT_FILE_$file_no/$file/g' {} +
-    file_no=$(($file_no+1))
-
-    if [ $file_no -eq 3 ]
-    then
-        file_no=1
-    fi
-done
 
 # run task
 iteration=1

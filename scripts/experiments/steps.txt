@@ -1,0 +1,11 @@
+# prepare server -- java + nextflow + conda ? 
+
+
+# setup file strings for node
+# HOME = / ... 
+# FIRST_FILE_NAME = 
+# SECOND_FILE_NAME = 
+
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_HOME/$HOME/g' {} +
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_1/FIRST_FILE_NAME/g' {} +
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_2/SECOND_FILE_NAME/g' {} +
