@@ -1,4 +1,4 @@
-DATA_1 = channel.fromPath('REPLACE_HOME/journal-paper/tasks/data/REPLACE_INPUT_FILE_1')
+DATA_1 = channel.fromPath('REPLACE_HOME/journal-paper/tasks/data/REPLACE_INPUT_FILE_3')
 
 process proc {
     conda "bioconda::bowtie2=2.5.4"

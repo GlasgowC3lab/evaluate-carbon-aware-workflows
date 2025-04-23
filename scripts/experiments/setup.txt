@@ -1,0 +1,35 @@
+# Prepare Server (gpg node commands)
+
+
+# Download Data 
+
+# fastp, fastqc, trimgalore
+wget 'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR034/ERR034564/ERR034564_1.fastq.gz'
+wget 'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR034/ERR034564/ERR034564_2.fastq.gz' 
+
+# bowtie2_build
+wget 'ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/simulations/read_simu_ART/chr17p12_1000.fa'
+
+# samtools_stats
+wget 'ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/FIN/HG00171/exome_alignment/HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram' 
+wget 'ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/FIN/HG00171/exome_alignment/HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram.crai'
+
+# Update Task Files 
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_HOME/$HOME/g' {} +
+
+# fastp, fastqc, trimgalore
+find $HOME/journal-paper/tasks/fastqc/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_1/ERR034564_1.fastq.gz/g' {} +
+find $HOME/journal-paper/tasks/fastp/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_1/ERR034564_1.fastq.gz/g' {} +
+find $HOME/journal-paper/tasks/trimgalore/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_1/ERR034564_1.fastq.gz/g' {} +
+
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_2/ERR034564_2.fastq.gz/g' {} +
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_2/ERR034564_2.fastq.gz/g' {} +
+
+# bowtie2_build 
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_3/chr17p12_1000.fa/g' {} +
+
+# samtools_stats 
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_4/HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram/g' {} +
+find $HOME/journal-paper/tasks/TASK_NAME/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_5/HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram.crai/g' {} +
+
+# Verify paths have been updated as expected, ensure config is present -- then proceed to run tasks! 
