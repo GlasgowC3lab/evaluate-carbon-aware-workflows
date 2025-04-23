@@ -1,5 +1,20 @@
 # Prepare Server (gpg node commands)
+curl -s "https://get.sdkman.io" | bash  # install sdkman 
+sdk install java 17.0.6-tem   # temurin 17  # install java 
+curl -s https://get.nextflow.io | bash  # install nextflow (in home directory)
 
+export PATH="$HOME/:$PATH"  # add nextflow to path
+export PATH="$HOME/miniconda3/bin:$PATH"  # add conda to path
+source "$HOME/.sdkman/bin/sdkman-init.sh"  # recognise sdk java
+
+# check docker version if using that instead of conda (!) -- update config files with the correct image ? 
+cpupower frequency-info  # verify cpupower is present
+
+# install turbostress
+sudo apt install linux-tools-common
+sudo apt install linux-tools-generic
+sudo apt install stress-ng
+sudo snap install go --channel=1.15/stable --classic
 
 # Download Data 
 
