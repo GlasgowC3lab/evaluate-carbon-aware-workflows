@@ -2,7 +2,7 @@ DATA_1 = channel.fromPath('REPLACE_HOME/journal-paper/tasks/data/REPLACE_INPUT_F
 DATA_2 = channel.fromPath('REPLACE_HOME/journal-paper/tasks/data/REPLACE_INPUT_FILE_5')
 
 process proc {
-    conda "biocontainers/samtools:1.21--h50ea8bc_0"
+    conda "bioconda::samtools=1.21"
 
     input:
         path(vDATA_1)

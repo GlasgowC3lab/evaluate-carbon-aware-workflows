@@ -3,9 +3,9 @@ curl -s "https://get.sdkman.io" | bash  # install sdkman
 sdk install java 17.0.6-tem   # temurin 17  # install java 
 curl -s https://get.nextflow.io | bash  # install nextflow (in home directory)
 
-export PATH="$HOME/:$PATH"  # add nextflow to path
-export PATH="$HOME/miniconda3/bin:$PATH"  # add conda to path
-source "$HOME/.sdkman/bin/sdkman-init.sh"  # recognise sdk java
+export PATH="$HOME/:$PATH" 
+export PATH="$HOME/miniconda3/bin:$PATH" 
+source "$HOME/.sdkman/bin/sdkman-init.sh" 
 
 # check docker version if using that instead of conda (!) -- update config files with the correct image ? 
 cpupower frequency-info  # verify cpupower is present
