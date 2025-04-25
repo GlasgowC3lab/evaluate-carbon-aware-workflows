@@ -19,11 +19,6 @@ cleanFolder () {
 
 task=$1
 maindir="$HOME/journal-paper/tasks/$task"
-fastqc_data=( ERR034564_1.fastq.gz ERR034564_2.fastq.gz )  # currently runs in <2m (!)
-bowtie2_data=( chr17p12_1000.fa )
-fastp_data=( ERR034564_1.fastq.gz )  # runs in 
-samtools_stats_data=( HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram HG00171.alt_bwamem_GRCh38DH.20150826.FIN.exome.cram.crai )
-trimgalore_data=( ERR034564_1.fastq.gz ERR034564_2.fastq.gz )
 
 # Set-Up
 cleanFolder
