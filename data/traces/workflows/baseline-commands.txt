@@ -4,38 +4,35 @@ python3 -m src.scripts.IchnosCF TRACE CI POWER_MODEL INTERVAL PUE MEMORY_COEFFIC
 
 power model should be NODE_GOVERNOR_MODEL e.g. gpg14_performance_linear vs clusterb_default_minmax
 
+# -> cluster-a Great Britain Intel Xeon Gold 6426Y 128 2
 # 35-123W 32GB 1 node (60 minutes for old, 5 minutes interval for marginal, tasks and more recent runs will use the more granular average data)
 python3 -m src.scripts.IchnosCF nanoseq-1 gb-31082024-30092024 server_default_minmax 60 1.0 0.392 32 1
 python3 -m src.scripts.IchnosCF nanoseq-2 gb-31082024-30092024 server_default_minmax 60 1.0 0.392 32 1
 python3 -m src.scripts.IchnosCF nanoseq-3 gb-31082024-30092024 server_default_minmax 60 1.0 0.392 32 1
 
+# -> cluster-c Germany Intel Xeon Silver 4314 256 8 (THIS IS HU)
 # 80-135W 256GB 8 nodes clusterc_linear -- fit a model to this (!) or just use the default minmax (?) these ran a year ago 
-python3 -m src.scripts.IchnosCF mag-1 de-09052024-01082024
-python3 -m src.scripts.IchnosCF mag-2 de-09052024-01082024
-python3 -m src.scripts.IchnosCF mag-3 de-09052024-01082024
+python3 -m src.scripts.IchnosCF mag-1 de-09052024-01082024 clusterc_default_minmax 60 1.0 0.392 256 8
+python3 -m src.scripts.IchnosCF mag-2 de-09052024-01082024 clusterc_default_minmax 60 1.0 0.392 256 8
+python3 -m src.scripts.IchnosCF mag-3 de-09052024-01082024 clusterc_default_minmax 60 1.0 0.392 256 8
 
-python3 -m src.scripts.IchnosCF rangeland-1 de-09052024-01082024
-python3 -m src.scripts.IchnosCF rangeland-2 de-09052024-01082024
-python3 -m src.scripts.IchnosCF rangeland-3 de-09052024-01082024
+python3 -m src.scripts.IchnosCF rangeland-1 de-09052024-01082024 clusterc_default_minmax 60 1.0 0.392 256 8
+python3 -m src.scripts.IchnosCF rangeland-2 de-09052024-01082024 clusterc_default_minmax 60 1.0 0.392 256 8
+python3 -m src.scripts.IchnosCF rangeland-3 de-09052024-01082024 clusterc_default_minmax 60 1.0 0.392 256 8
 
-# 113-262W 128GB 8 nodes clusterb_linear
-python3 -m src.scripts.IchnosCF chipseq-1 de-15112023-08122023
-python3 -m src.scripts.IchnosCF chipseq-2 de-15112023-08122023
-python3 -m src.scripts.IchnosCF chipseq-3 de-15112023-08122023
+# 113-262W 128GB 8 nodes clusterb_linear -> cluster-b Germany AMD EPYC 7282 128 8
+python3 -m src.scripts.IchnosCF chipseq-1 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF chipseq-2 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF chipseq-3 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
 
-python3 -m src.scripts.IchnosCF rnaseq-1 de-15112023-08122023
-python3 -m src.scripts.IchnosCF rnaseq-2 de-15112023-08122023
-python3 -m src.scripts.IchnosCF rnaseq-3 de-15112023-08122023
+python3 -m src.scripts.IchnosCF rnaseq-1 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF rnaseq-2 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF rnaseq-3 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
 
-python3 -m src.scripts.IchnosCF sarek-1 de-15112023-08122023
-python3 -m src.scripts.IchnosCF sarek-2 de-15112023-08122023
-python3 -m src.scripts.IchnosCF sarek-3 de-15112023-08122023
+python3 -m src.scripts.IchnosCF sarek-1 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF sarek-2 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF sarek-3 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
 
-python3 -m src.scripts.IchnosCF montage-1 de-01012024-31012024 
-python3 -m src.scripts.IchnosCF montage-2 de-01012024-31012024
-python3 -m src.scripts.IchnosCF montage-3 de-01012024-31012024
-
-resources as described earlier ?? redefine if I use multiple nodes ?? 
-cluster-a Great Britain Intel Xeon Gold 6426Y 128 2
-cluster-b Germany AMD EPYC 7282 128 8
-cluster-c Germany Intel Xeon Silver 4314 256 8 (THIS IS HU)
+python3 -m src.scripts.IchnosCF montage-1 de-01012024-31012024 clusterb_default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF montage-2 de-01012024-31012024 clusterb_default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF montage-3 de-01012024-31012024 clusterb_default_minmax 60 1.0 0.392 128 8
