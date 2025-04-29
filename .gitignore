@@ -2,7 +2,6 @@
 */marginal-carbon-intensity/*
 data/intensity/*marg*.csv
 data/intensity/out/*marg*.csv
-*/raw-traces/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

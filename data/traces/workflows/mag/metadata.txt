@@ -1,0 +1,30 @@
+---
+mag 
+-1 
+1715706774762
+12h 45m 12s
+14 may 2024
+
+-2
+1718121129497
+12h 16m 43s
+11 june 2024
+
+-3
+1721517643877
+12h 52m 41s
+21 july 2024
+---
+
+
+# get tailored power model for this cluster? backup of default linear model from 
+80-135W 
+
+machine specs
+Intel Xeon Silver 4314, 256 GB Memory per node, 2 x 3.5 TB SSD, Bookable
+Nodes https://www.intel.com/content/www/us/en/products/sku/215269/intel-xeon-silver-4314-processor-24m-cache-2-40-ghz/specifications.html
+TDP 135W - 16 cores
+core power draw = 135/16 = 8.4375
+own measurements:
+idle power draw 80W
+100% power draw 135W

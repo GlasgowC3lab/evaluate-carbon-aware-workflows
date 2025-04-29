@@ -1,0 +1,27 @@
+TU Berlin Cluster -- use approximations from online -- linear power model as not got direct access to these nodes 
+8 nodes - each node has AMD EPYC 7282 16-core processor, 128GB DDR4 memory
+
+WOW trace specs:
+will be using idle power at 113W
+will be using 100% power at 262W
+from: https://www.servethehome.com/amd-epyc-7282-benchmarks-and-review/
+could not find on spec.org power results
+will be using quoted TDP (AMD reported) of 120W 
+for core-power draw, 120/16 = 7.5W
+
+
+-1
+1700837757064
+
+-2
+1700848560844
+
+-3 
+1700860141336
+
+# chipseq, rnaseq, sarek 
+de-15112023-08122023
+de-15112023-08122023-marg
+
+python3 generate-commands.py sarek 113 262 de-15112023-08122023 1700873841769 1700913231412 1700935938417 128 8
+python3 generate-commands.py montage 113 262 de-01012023-31012023 1673371500000 1673373500000 1673375400000 128 8

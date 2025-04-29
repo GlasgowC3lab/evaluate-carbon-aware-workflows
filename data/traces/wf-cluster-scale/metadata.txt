@@ -1,0 +1,76 @@
+# used la-ceph as it was in all of them for the chipseq workflow 
+
+# 2 nodes (~12 hours makespan)
+-1 1702631101896
+-2 1702979921808
+-3 1702717025561
+# 15th december 2023
+
+11h 48m 9s
+11h 49m 38s
+11h 54m
+== 11h, 50m, 35s
+== 11.84 hours
+
+# 4 nodes (~6 hours makespan)
+-1 1702236950962
+-2 1702258596810
+-3 1702280154303
+# 10th december 2023
+
+5h 58m 58s
+5h 57m 28s
+5h 59m 1s
+== 5.97 hours
+
+# 8 nodes (~3 hours makespan)
+-1 1697327730935
+-2 1697339093607
+-3 1697350504483
+# 14th october 2023
+
+3h 7m 33s
+3h 8m 21s
+3h 6m 45s
+== 3.13 hours 
+
+# carbon intensity files 
+de-01102023-31122023
+
+# commands 
+-- no time adjusting commands necessary, all occurred in 2023
+
+# 2 nodes
+python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 2
+python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 2
+python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 2
+
+python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 2
+python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 2
+python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 2
+
+-- estimates around 10kg CO2e
+
+# 4 nodes
+python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 4
+python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 4
+python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 4
+
+python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 4
+python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 4
+python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 4
+-- estimates around 9kg CO2e 
+
+# 8 nodes 
+python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 8
+python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 8
+python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 8
+
+python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 8
+python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 8
+python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 8
+
+-- estimates around 7kg CO2e 
+
+
+# todo: get the actual runtimes in hours, minutes etc for makespan so can improve accuracy from the glance-over

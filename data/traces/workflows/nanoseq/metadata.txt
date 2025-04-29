@@ -1,0 +1,16 @@
+timestamps
+
+nanoseq-1
+ran on sep 4
+"beginningMillis": 1725375753824
+"endingMillis": 1725395376909
+
+nanoseq-2
+ran on sep 5
+"beginningMillis": 1725525524889
+"endingMillis": 1725546237131
+
+nanoseq-3
+ran on sep 14
+"beginningMillis": 1726314360165
+"endingMillis": 1726334142208

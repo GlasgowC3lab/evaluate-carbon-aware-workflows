@@ -1,0 +1,60 @@
+Metadata for Commands
+
+TRACE MIN_CPU MAX_CPU CARBON_INTENSITY TIMESTAMP1 TIMESTAMP2 TIMESTAMP3 NODE_MEMORY NO_OF_NODES
+
+PARAMETERS TO BE UPDATED FOR THE SCRIPT ?? 
+
+# montage
+de-01012024-31012024
+de-01012024-31012024-marg
+
+# mag + rangeland 
+de-09052024-01082024
+de-09052024-01082024-marg 
+
+# chipseq, rnaseq, sarek 
+de-15112023-08122023
+de-15112023-08122023-marg
+
+# nanoseq 
+gb-31082024-30092024
+gb-31082024-30092024-marg
+
+# workflows, split by server 
+
+local server (nanoseq) -- do I still have ampliseq runs for this ? 
+
+# average 
+python3 generate-commands.py nanoseq 35 123 uk-31082023-30092023 1693753400000 1693903100000 1694692000000 32 1
+
+# marginal
+python3 generate-commands.py nanoseq 35 123 uk-31082023-30092023-marg 1693753400000 1693903100000 1694692000000 32 1
+
+hu cluster (rangeland, mag) -> cluster-c
+
+# average 
+python3 generate-commands.py rangeland 80 135 de-09052023-01082023 1684209700000 1687371000000 1690486500000 256 8
+python3 generate-commands.py mag 80 135 de-09052023-01082023 1684084400000 1686498700000 1689895200000 256 8
+
+# marginal 
+python3 generate-commands.py rangeland 80 135 de-09052023-01082023-marg 1684209700000 1687371000000 1690486500000 256 8
+python3 generate-commands.py mag 80 135 de-09052023-01082023-marg 1684084400000 1686498700000 1689895200000 256 8
+
+tu cluster (chipseq, rnaseq, sarek, montage) -> cluster-b 
+
+# average 
+python3 generate-commands.py chipseq 113 262 de-15112023-08122023 1700955993471 1700969719140 1700982940372 128 8
+python3 generate-commands.py rnaseq 113 262 de-15112023-08122023 1700837757064 1700848560844 1700860141336 128 8
+python3 generate-commands.py sarek 113 262 de-15112023-08122023 1700873841769 1700913231412 1700935938417 128 8
+python3 generate-commands.py montage 113 262 de-01012023-31012023 1673371500000 1673373500000 1673375400000 128 8
+
+# marginal 
+python3 generate-commands.py chipseq 113 262 de-15112023-08122023-marg 1700955993471 1700969719140 1700982940372 128 8
+python3 generate-commands.py rnaseq 113 262 de-15112023-08122023-marg 1700837757064 1700848560844 1700860141336 128 8
+python3 generate-commands.py sarek 113 262 de-15112023-08122023-marg 1700873841769 1700913231412 1700935938417 128 8
+python3 generate-commands.py montage 113 262 de-01012023-31012023-marg 1673371500000 1673373500000 1673375400000 128 8
+
+resources as described earlier ?? redefine if I use multiple nodes ?? 
+cluster-a Great Britain Intel Xeon Gold 6426Y 128 2
+cluster-b Germany AMD EPYC 7282 128 8
+cluster-c Germany Intel Xeon Silver 4314 256 8 (THIS IS HU)
