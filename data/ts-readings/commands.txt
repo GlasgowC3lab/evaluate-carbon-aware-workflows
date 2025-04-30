@@ -1,0 +1,13 @@
+# Generate Power Models for Nodes
+
+# uses FitPowerModels with the node and setting, and the amount of memory in GB
+python3 -m src.scripts.FitPowerModels gpg13-performance 64
+python3 -m src.scripts.FitPowerModels gpg13-powersave 64
+python3 -m src.scripts.FitPowerModels gpg14-performance 64
+python3 -m src.scripts.FitPowerModels gpg14-powersave 64
+python3 -m src.scripts.FitPowerModels gpg15-performance 64
+python3 -m src.scripts.FitPowerModels gpg15-powersave 64
+python3 -m src.scripts.FitPowerModels gpg22-performance 128
+python3 -m src.scripts.FitPowerModels gpg22-powersave 128
+python3 -m src.scripts.FitPowerModels server-performance 32
+python3 -m src.scripts.FitPowerModels server-powersave 32

@@ -1,97 +1,128 @@
 {
 	"gpg13": {
-		"ondemand": {
-			"min_watts": 48.26,
-			"max_watts": 124.96333333333332,
-			"tdp_per_core": 11.875,
-			"system_cores": 32,
-			"mem_draw": 0.40268229166666664,
-			"cubic": [2.120111370111352e-05, -0.010314627039627027, 1.583392126392127, 49.00097902097905],
-			"linear": [0.7486757575757578, 60.465909090909086]
-		}
-	},
-	"gpg14": {
-		"performance": {
-			"min_watts": 50.56666666666666,
-			"max_watts": 125.25,
-			"tdp_per_core": 11.875,
-			"system_cores": 32,
-			"mem_draw": 0.36736979166666667,
-			"cubic": [2.976560476560505e-05, -0.01055419580419587, 1.500831131831135, 51.75289044289049],
-			"linear": [0.7216363636363639, 61.95848484848483]
-		},
 		"powersave": {
-			"min_watts": 49.413333333333334,
-			"max_watts": 105.60666666666667,
+			"tdp_per_core": 11.875,
+			"system_cores": 32,
+			"mem_draw": 0.40752604166666667,
+			"linear": [ 0.5711151515151512, 54.82666666666669 ],
+			"min_watts": 48.166666666666664,
+			"max_watts": 104.88666666666666
+		}, 
+		"performance": {
+			"tdp_per_core": 11.875,
+			"system_cores": 32,
+			"mem_draw": val,
+			"linear": val,
+			"min_watts": val,
+			"max_watts": val
+		}
+	}, 
+	"gpg14": {
+		"powersave": {
 			"tdp_per_core": 11.875,
 			"system_cores": 32,
 			"mem_draw": 0.35888020833333334,
-			"cubic": [-1.612276612276791e-06, -0.004015695415695406, 0.9829405594405596, 49.289160839160864],
-			"linear": [0.5664090909090908, 55.61742424242428]
-		}
-	},
-	"gpg15": {
+			"linear": [ 0.5664090909090908, 55.61742424242428 ],
+			"min_watts": 49.413333333333334,
+			"max_watts": 105.60666666666667
+		}, 
 		"performance": {
-			"min_watts": 54.88666666666666,
-			"max_watts": 138.81666666666666,
 			"tdp_per_core": 11.875,
 			"system_cores": 32,
-			"mem_draw": 0.4091666666666667,
-			"cubic": [1.10839160839165e-05, -0.008064724164724252, 1.5371985236985277, 55.72610722610721],
-			"linear": [0.8335848484848487, 65.72833333333334]
-		},
+			"mem_draw": 0.36736979166666667,
+			"linear": [ 0.7216363636363639, 61.95848484848483 ],
+			"min_watts": 50.56666666666666,
+			"max_watts": 125.25
+		}
+	}, 
+	"gpg15": {
 		"powersave": {
-			"min_watts": 52.949999999999996,
-			"max_watts": 120.30333333333334,
 			"tdp_per_core": 11.875,
 			"system_cores": 32,
 			"mem_draw": 0.40458333333333335,
-			"cubic": [-3.1598031598030393e-06, -0.004507808857808884, 1.161149313649315, 52.835780885780885],
-			"linear": [0.6810454545454548, 60.19469696969696]
-		}
-	},
-	"gpg22": {
+			"linear": [ 0.6810454545454548, 60.19469696969696 ],
+			"min_watts": 52.949999999999996,
+			"max_watts": 120.30333333333334
+		}, 
 		"performance": {
-			"min_watts": 117.37,
-			"max_watts": 345.76666666666665,
-			"tdp_per_core": 11.5625,
-			"system_cores": 64,
-			"mem_draw": 0.016953125,
-			"cubic": [0.0007414795389795361, -0.13460499222999192, 8.232617586117582, 131.4333566433568],
-			"linear": [1.6530484848484859, 193.20121212121217]
-		},
+			"tdp_per_core": 11.875,
+			"system_cores": 32,
+			"mem_draw": 0.4091666666666667,
+			"linear": [ 0.8335848484848487, 65.72833333333334 ],
+			"min_watts": 54.88666666666666,
+			"max_watts": 138.81666666666666
+		}
+	}, 
+	"gpg22": {
 		"powersave": {
-			"min_watts": 94.77333333333333,
-			"max_watts": 347.1433333333334,
 			"tdp_per_core": 11.5625,
 			"system_cores": 64,
 			"mem_draw": 0.016041666666666666,
-			"cubic": [0.0008557536907536887, -0.15424075369075355, 9.282093240093246, 110.46752913752906],
-			"linear": [1.7994121212121201, 180.0912121212122]
-		}
-	},
-	"server": {
-		"powersave": {
-
+			"linear": [ 1.7994121212121201, 180.0912121212122 ],
+			"min_watts": 94.77333333333333,
+			"max_watts": 347.1433333333334
 		}, 
 		"performance": {
-
+			"tdp_per_core": 11.5625,
+			"system_cores": 64,
+			"mem_draw": 0.016953125,
+			"linear": [ 1.6530484848484859, 193.20121212121217 ],
+			"min_watts": 117.37,
+			"max_watts": 345.76666666666665
+		}
+	}, 
+	"server": {
+		"powersave": {
+			"tdp_per_core": val,
+			"system_cores": val,
+			"mem_draw": 0.056302083333333336,
+			"linear": [ 0.2478060606060606, 16.653939393939392 ],
+			"min_watts": 2.9933333333333336,
+			"max_watts": 39.223333333333336
+		}, 
+		"performance": {
+			"tdp_per_core": val,
+			"system_cores": val,
+			"mem_draw": 0.057708333333333334,
+			"linear": [ 0.08846666666666675, 29.430909090909093 ],
+			"min_watts": 19.656666666666666,
+			"max_watts": 43.86666666666667
 		}
 	},
 	"clusterb": {
 		"default": {
-
+			"tdp_per_core": val,
+			"system_cores": val,
+			"mem_draw": val,
+			"linear": val,
+			"min_watts": val,
+			"max_watts": val
 		}
 	},
 	"clusterc": {
 		"default": {
-
+			"tdp_per_core": val,
+			"system_cores": val,
+			"mem_draw": val,
+			"linear": val,
+			"min_watts": val,
+			"max_watts": val
         },
         "powersave": {
-
+			"tdp_per_core": val,
+			"system_cores": val,
+			"mem_draw": val,
+			"linear": val,
+			"min_watts": val,
+			"max_watts": val
         },
         "performance": {
-            
+			"tdp_per_core": val,
+			"system_cores": val,
+			"mem_draw": val,
+			"linear": val,
+			"min_watts": val,
+			"max_watts": val
         }
 	}
 }
