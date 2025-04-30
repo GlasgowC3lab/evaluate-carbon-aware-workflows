@@ -73,16 +73,16 @@
 	}, 
 	"server": {
 		"powersave": {
-			"tdp_per_core": val,
-			"system_cores": val,
+			"tdp_per_core": 4.375,
+			"system_cores": 16,
 			"mem_draw": 0.056302083333333336,
 			"linear": [ 0.2478060606060606, 16.653939393939392 ],
 			"min_watts": 2.9933333333333336,
 			"max_watts": 39.223333333333336
 		}, 
 		"performance": {
-			"tdp_per_core": val,
-			"system_cores": val,
+			"tdp_per_core": 4.375,
+			"system_cores": 16,
 			"mem_draw": 0.057708333333333334,
 			"linear": [ 0.08846666666666675, 29.430909090909093 ],
 			"min_watts": 19.656666666666666,
