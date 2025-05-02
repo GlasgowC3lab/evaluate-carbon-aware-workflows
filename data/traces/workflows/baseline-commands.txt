@@ -21,6 +21,7 @@ python3 -m src.scripts.IchnosCF rangeland-2 de-09052024-01082024 clusterc_defaul
 python3 -m src.scripts.IchnosCF rangeland-3 de-09052024-01082024 clusterc_default_minmax 60 1.0 0.392 256 8
 
 # 113-262W 128GB 8 nodes clusterb_linear -> cluster-b Germany AMD EPYC 7282 128 8
+# this will be using the minmax function for clusterb - default settings 
 python3 -m src.scripts.IchnosCF chipseq-1 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
 python3 -m src.scripts.IchnosCF chipseq-2 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
 python3 -m src.scripts.IchnosCF chipseq-3 de-15112023-08122023 clusterb_default_minmax 60 1.0 0.392 128 8
