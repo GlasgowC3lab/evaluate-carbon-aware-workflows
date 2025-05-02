@@ -11,10 +11,10 @@
 		"performance": {
 			"tdp_per_core": 11.875,
 			"system_cores": 32,
-			"mem_draw": val,
-			"linear": val,
-			"min_watts": val,
-			"max_watts": val
+			"mem_draw": 0.40921874999999996,
+			"linear": [ 0.7379060606060608, 61.03712121212123 ],
+			"min_watts": 49.379999999999995,
+			"max_watts": 124.93333333333334
 		}
 	}, 
 	"gpg14": {
