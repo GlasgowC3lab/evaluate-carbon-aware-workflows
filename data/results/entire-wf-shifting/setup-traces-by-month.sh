@@ -2,9 +2,6 @@
 
 # Convert Workflow Scripts for each month
 
-montage + 31622400000 
-nanoseq + 31622400000 
-
 # January (2024-01-08:09-00)
 python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-01-08:09-00 1725375753824 nanoseq-jan-1
 python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-01-08:09-00 1725525524889 nanoseq-jan-2
