@@ -2,18 +2,21 @@
 
 # Convert Workflow Scripts for each month
 
+montage + 31622400000 
+nanoseq + 31622400000 
+
 # January (2024-01-08:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-01-08:09-00 1693753400000 nanoseq-jan-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-01-08:09-00 1693903100000 nanoseq-jan-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-01-08:09-00 1694692000000 nanoseq-jan-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-01-08:09-00 1725375753824 nanoseq-jan-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-01-08:09-00 1725525524889 nanoseq-jan-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-01-08:09-00 1726314360165 nanoseq-jan-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-01-08:09-00 1684209700000 rangeland-jan-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-01-08:09-00 1687371000000 rangeland-jan-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-01-08:09-00 1690486500000 rangeland-jan-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-01-08:09-00 1715832143814 rangeland-jan-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-01-08:09-00 1718993419050 rangeland-jan-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-01-08:09-00 1722108924333 rangeland-jan-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-01-08:09-00 1684084400000 mag-jan-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-01-08:09-00 1686498700000 mag-jan-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-01-08:09-00 1689895200000 mag-jan-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-01-08:09-00 1715706774762 mag-jan-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-01-08:09-00 1718121129497 mag-jan-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-01-08:09-00 1721517643877 mag-jan-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-01-08:09-00 1700955993471 chipseq-jan-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-01-08:09-00 1700969719140 chipseq-jan-2
@@ -27,9 +30,9 @@ python3 -m src.scripts.Convertor change-start-ms sarek-1 , 2024-01-08:09-00 1700
 python3 -m src.scripts.Convertor change-start-ms sarek-2 , 2024-01-08:09-00 1700913231412 sarek-jan-2
 python3 -m src.scripts.Convertor change-start-ms sarek-3 , 2024-01-08:09-00 1700935938417 sarek-jan-3
 
-python3 -m src.scripts.Convertor change-start-ms montage-1 , 2024-01-08:09-00 1673371500000 montage-jan-1
-python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-01-08:09-00 1673373500000 montage-jan-2
-python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-01-08:09-00 1673375400000 montage-jan-3
+python3 -m src.scripts.Convertor change-start-ms montage-1 , 2024-01-08:09-00 1704993850589 montage-jan-1
+python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-01-08:09-00 1704995919945 montage-jan-2
+python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-01-08:09-00 1704997806546 montage-jan-3
 
 # February (2024-02-12:09-00)
 python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-02-12:09-00 1693753400000 nanoseq-feb-1
@@ -349,3 +352,29 @@ python3 -m src.scripts.Convertor change-start-ms sarek-3 , 2024-12-09:09-00 1700
 python3 -m src.scripts.Convertor change-start-ms montage-1 , 2024-12-09:09-00 1673371500000 montage-dec-1
 python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-12-09:09-00 1673373500000 montage-dec-2
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-12-09:09-00 1673375400000 montage-dec-3
+
+# Move Files to Folders
+mkdir data/trace/jan 
+mv data/trace/*jan*csv data/trace/jan
+mkdir data/trace/feb
+mv data/trace/*feb*csv data/trace/feb
+mkdir data/trace/mar
+mv data/trace/*mar*csv data/trace/mar
+mkdir data/trace/apr
+mv data/trace/*apr*csv data/trace/apr
+mkdir data/trace/may
+mv data/trace/*may*csv data/trace/may
+mkdir data/trace/jun
+mv data/trace/*jun*csv data/trace/jun
+mkdir data/trace/jul
+mv data/trace/*jul*csv data/trace/jul
+mkdir data/trace/aug
+mv data/trace/*aug*csv data/trace/aug
+mkdir data/trace/sep
+mv data/trace/*sep*csv data/trace/sep
+mkdir data/trace/oct
+mv data/trace/*oct*csv data/trace/oct
+mkdir data/trace/nov
+mv data/trace/*nov*csv data/trace/nov
+mkdir data/trace/dec
+mv data/trace/*dec*csv data/trace/dec
