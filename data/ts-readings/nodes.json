@@ -72,6 +72,13 @@
 		}
 	}, 
 	"server": {
+		"default": {
+			"tdp_per_core": 4.375,
+			"system_cores": 16,
+			"min_watts": 35,
+			"max_watts": 123,
+			"mem_draw": 0.392
+		},
 		"powersave": {
 			"tdp_per_core": 4.375,
 			"system_cores": 16,
@@ -93,7 +100,7 @@
 		"default": {
 			"tdp_per_core": 7.5,
 			"system_cores": 32,
-			"mem_draw": 0.394,
+			"mem_draw": 0.392,
 			"min_watts": 113,
 			"max_watts": 262 
 		}
@@ -102,7 +109,7 @@
 		"default": {
 			"tdp_per_core": 8.4375,
 			"system_cores": 32,
-			"mem_draw": 0.394,
+			"mem_draw": 0.392,
 			"min_watts": 80,
 			"max_watts": 135
         },
