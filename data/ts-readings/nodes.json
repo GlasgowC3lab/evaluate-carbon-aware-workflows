@@ -91,38 +91,36 @@
 	},
 	"clusterb": {
 		"default": {
-			"tdp_per_core": val,
-			"system_cores": val,
-			"mem_draw": val,
-			"linear": val,
-			"min_watts": val,
-			"max_watts": val
+			"tdp_per_core": 7.5,
+			"system_cores": 32,
+			"mem_draw": 0.394,
+			"min_watts": 113,
+			"max_watts": 262 
 		}
 	},
-	"clusterc": {
+	"hu26": {
 		"default": {
-			"tdp_per_core": val,
-			"system_cores": val,
-			"mem_draw": val,
-			"linear": val,
-			"min_watts": val,
-			"max_watts": val
+			"tdp_per_core": 8.4375,
+			"system_cores": 32,
+			"mem_draw": 0.394,
+			"min_watts": 80,
+			"max_watts": 135
         },
         "powersave": {
-			"tdp_per_core": val,
-			"system_cores": val,
-			"mem_draw": val,
-			"linear": val,
-			"min_watts": val,
-			"max_watts": val
+			"tdp_per_core": 8.4375,
+			"system_cores": 32,
+			"mem_draw": 0.05203125,
+			"linear": [ 0.190339393939394, 43.47333333333334 ],
+			"min_watts": 39.81333333333333,
+			"max_watts": 60.05666666666667
         },
         "performance": {
-			"tdp_per_core": val,
-			"system_cores": val,
-			"mem_draw": val,
-			"linear": val,
-			"min_watts": val,
-			"max_watts": val
+			"tdp_per_core": 8.4375,
+			"system_cores": 32,
+			"mem_draw": 0.06839192708333333,
+			"linear": [ 0.6224515151515154, 87.76863636363638 ],
+			"min_watts": 73.09666666666668,
+			"max_watts": 139.26666666666668
         }
 	}
 }

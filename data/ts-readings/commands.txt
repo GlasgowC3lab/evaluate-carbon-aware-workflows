@@ -11,3 +11,5 @@ python3 -m src.scripts.FitPowerModels gpg22-performance 128
 python3 -m src.scripts.FitPowerModels gpg22-powersave 128
 python3 -m src.scripts.FitPowerModels server-performance 32
 python3 -m src.scripts.FitPowerModels server-powersave 32
+python3 -m src.scripts.FitPowerModels hu26-performance 256
+python3 -m src.scripts.FitPowerModels hu26-powersave 256 

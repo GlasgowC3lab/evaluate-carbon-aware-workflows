@@ -2,7 +2,24 @@ Metadata for Commands
 
 TRACE MIN_CPU MAX_CPU CARBON_INTENSITY TIMESTAMP1 TIMESTAMP2 TIMESTAMP3 NODE_MEMORY NO_OF_NODES
 
-PARAMETERS TO BE UPDATED FOR THE SCRIPT ?? 
+# Regions: gb, ca, de, nsw, tx, tyo, zaf
+
+# Nano-Seq Workflow
+
+# Original Workflow (Average + Marginal)
+python3 generate-commands.py nanoseq 35 123 gb-31082023-30092023 1693753400000 1693903100000 1694692000000 32 1
+python3 generate-commands.py nanoseq 35 123 gb-31082023-30092023-marg 1693753400000 1693903100000 1694692000000 32 1
+
+# Original Workflow in Other Regions
+
+
+# Shift Timestamp for every date -> unique output file name
+
+# Footprint Exploration for every date, for every region
+
+# Interrupted Execution Exploration for every date, for every region
+
+
 
 # montage
 de-01012024-31012024
@@ -58,3 +75,10 @@ resources as described earlier ?? redefine if I use multiple nodes ??
 cluster-a Great Britain Intel Xeon Gold 6426Y 128 2
 cluster-b Germany AMD EPYC 7282 128 8
 cluster-c Germany Intel Xeon Silver 4314 256 8 (THIS IS HU)
+
+
+# Original Footprint in (ALL) Regions
+
+
+# Temporal Shifting Window CI Files 
+
