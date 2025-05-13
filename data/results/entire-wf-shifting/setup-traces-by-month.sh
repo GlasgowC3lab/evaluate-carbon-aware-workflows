@@ -32,17 +32,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-01-08:09-00 17
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-01-08:09-00 1704997806546 montage-jan-3
 
 # February (2024-02-12:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-02-12:09-00 1693753400000 nanoseq-feb-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-02-12:09-00 1693903100000 nanoseq-feb-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-02-12:09-00 1694692000000 nanoseq-feb-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-02-12:09-00 1725375753824 nanoseq-feb-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-02-12:09-00 1725525524889 nanoseq-feb-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-02-12:09-00 1726314360165 nanoseq-feb-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-02-12:09-00 1684209700000 rangeland-feb-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-02-12:09-00 1687371000000 rangeland-feb-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-02-12:09-00 1690486500000 rangeland-feb-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-02-12:09-00 1715832143814 rangeland-feb-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-02-12:09-00 1718993419050 rangeland-feb-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-02-12:09-00 1722108924333 rangeland-feb-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-02-12:09-00 1684084400000 mag-feb-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-02-12:09-00 1686498700000 mag-feb-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-02-12:09-00 1689895200000 mag-feb-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-02-12:09-00 1715706774762 mag-feb-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-02-12:09-00 1718121129497 mag-feb-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-02-12:09-00 1721517643877 mag-feb-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-02-12:09-00 1700955993471 chipseq-feb-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-02-12:09-00 1700969719140 chipseq-feb-2
@@ -61,17 +61,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-02-12:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-02-12:09-00 1673375400000 montage-feb-3
 
 # March (2024-03-11:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-03-11:09-00 1693753400000 nanoseq-mar-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-03-11:09-00 1693903100000 nanoseq-mar-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-03-11:09-00 1694692000000 nanoseq-mar-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-03-11:09-00 1725375753824 nanoseq-mar-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-03-11:09-00 1725525524889 nanoseq-mar-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-03-11:09-00 1726314360165 nanoseq-mar-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-03-11:09-00 1684209700000 rangeland-mar-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-03-11:09-00 1687371000000 rangeland-mar-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-03-11:09-00 1690486500000 rangeland-mar-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-03-11:09-00 1715832143814 rangeland-mar-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-03-11:09-00 1718993419050 rangeland-mar-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-03-11:09-00 1722108924333 rangeland-mar-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-03-11:09-00 1684084400000 mag-mar-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-03-11:09-00 1686498700000 mag-mar-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-03-11:09-00 1689895200000 mag-mar-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-03-11:09-00 1715706774762 mag-mar-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-03-11:09-00 1718121129497 mag-mar-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-03-11:09-00 1721517643877 mag-mar-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-03-11:09-00 1700955993471 chipseq-mar-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-03-11:09-00 1700969719140 chipseq-mar-2
@@ -90,17 +90,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-03-11:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-03-11:09-00 1673375400000 montage-mar-3
 
 # April (2024-04-08:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-04-08:09-00 1693753400000 nanoseq-apr-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-04-08:09-00 1693903100000 nanoseq-apr-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-04-08:09-00 1694692000000 nanoseq-apr-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-04-08:09-00 1725375753824 nanoseq-apr-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-04-08:09-00 1725525524889 nanoseq-apr-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-04-08:09-00 1726314360165 nanoseq-apr-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-04-08:09-00 1684209700000 rangeland-apr-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-04-08:09-00 1687371000000 rangeland-apr-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-04-08:09-00 1690486500000 rangeland-apr-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-04-08:09-00 1715832143814 rangeland-apr-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-04-08:09-00 1718993419050 rangeland-apr-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-04-08:09-00 1722108924333 rangeland-apr-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-04-08:09-00 1684084400000 mag-apr-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-04-08:09-00 1686498700000 mag-apr-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-04-08:09-00 1689895200000 mag-apr-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-04-08:09-00 1715706774762 mag-apr-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-04-08:09-00 1718121129497 mag-apr-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-04-08:09-00 1721517643877 mag-apr-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-04-08:09-00 1700955993471 chipseq-apr-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-04-08:09-00 1700969719140 chipseq-apr-2
@@ -119,17 +119,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-04-08:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-04-08:09-00 1673375400000 montage-apr-3
 
 # May (2024-05-13:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-05-13:09-00 1693753400000 nanoseq-may-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-05-13:09-00 1693903100000 nanoseq-may-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-05-13:09-00 1694692000000 nanoseq-may-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-05-13:09-00 1725375753824 nanoseq-may-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-05-13:09-00 1725525524889 nanoseq-may-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-05-13:09-00 1726314360165 nanoseq-may-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-05-13:09-00 1684209700000 rangeland-may-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-05-13:09-00 1687371000000 rangeland-may-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-05-13:09-00 1690486500000 rangeland-may-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-05-13:09-00 1715832143814 rangeland-may-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-05-13:09-00 1718993419050 rangeland-may-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-05-13:09-00 1722108924333 rangeland-may-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-05-13:09-00 1684084400000 mag-may-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-05-13:09-00 1686498700000 mag-may-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-05-13:09-00 1689895200000 mag-may-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-05-13:09-00 1715706774762 mag-may-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-05-13:09-00 1718121129497 mag-may-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-05-13:09-00 1721517643877 mag-may-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-05-13:09-00 1700955993471 chipseq-may-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-05-13:09-00 1700969719140 chipseq-may-2
@@ -148,17 +148,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-05-13:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-05-13:09-00 1673375400000 montage-may-3
 
 # June (2024-06-10:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-06-10:09-00 1693753400000 nanoseq-jun-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-06-10:09-00 1693903100000 nanoseq-jun-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-06-10:09-00 1694692000000 nanoseq-jun-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-06-10:09-00 1725375753824 nanoseq-jun-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-06-10:09-00 1725525524889 nanoseq-jun-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-06-10:09-00 1726314360165 nanoseq-jun-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-06-10:09-00 1684209700000 rangeland-jun-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-06-10:09-00 1687371000000 rangeland-jun-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-06-10:09-00 1690486500000 rangeland-jun-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-06-10:09-00 1715832143814 rangeland-jun-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-06-10:09-00 1718993419050 rangeland-jun-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-06-10:09-00 1722108924333 rangeland-jun-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-06-10:09-00 1684084400000 mag-jun-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-06-10:09-00 1686498700000 mag-jun-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-06-10:09-00 1689895200000 mag-jun-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-06-10:09-00 1715706774762 mag-jun-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-06-10:09-00 1718121129497 mag-jun-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-06-10:09-00 1721517643877 mag-jun-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-06-10:09-00 1700955993471 chipseq-jun-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-06-10:09-00 1700969719140 chipseq-jun-2
@@ -177,17 +177,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-06-10:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-06-10:09-00 1673375400000 montage-jun-3
 
 # July (2024-07-08:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-07-08:09-00 1693753400000 nanoseq-jul-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-07-08:09-00 1693903100000 nanoseq-jul-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-07-08:09-00 1694692000000 nanoseq-jul-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-07-08:09-00 1725375753824 nanoseq-jul-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-07-08:09-00 1725525524889 nanoseq-jul-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-07-08:09-00 1726314360165 nanoseq-jul-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-07-08:09-00 1684209700000 rangeland-jul-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-07-08:09-00 1687371000000 rangeland-jul-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-07-08:09-00 1690486500000 rangeland-jul-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-07-08:09-00 1715832143814 rangeland-jul-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-07-08:09-00 1718993419050 rangeland-jul-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-07-08:09-00 1722108924333 rangeland-jul-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-07-08:09-00 1684084400000 mag-jul-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-07-08:09-00 1686498700000 mag-jul-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-07-08:09-00 1689895200000 mag-jul-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-07-08:09-00 1715706774762 mag-jul-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-07-08:09-00 1718121129497 mag-jul-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-07-08:09-00 1721517643877 mag-jul-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-07-08:09-00 1700955993471 chipseq-jul-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-07-08:09-00 1700969719140 chipseq-jul-2
@@ -206,17 +206,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-07-08:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-07-08:09-00 1673375400000 montage-jul-3
 
 # August (2024-08-12:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-08-12:09-00 1693753400000 nanoseq-aug-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-08-12:09-00 1693903100000 nanoseq-aug-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-08-12:09-00 1694692000000 nanoseq-aug-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-08-12:09-00 1725375753824 nanoseq-aug-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-08-12:09-00 1725525524889 nanoseq-aug-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-08-12:09-00 1726314360165 nanoseq-aug-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-08-12:09-00 1684209700000 rangeland-aug-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-08-12:09-00 1687371000000 rangeland-aug-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-08-12:09-00 1690486500000 rangeland-aug-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-08-12:09-00 1715832143814 rangeland-aug-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-08-12:09-00 1718993419050 rangeland-aug-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-08-12:09-00 1722108924333 rangeland-aug-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-08-12:09-00 1684084400000 mag-aug-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-08-12:09-00 1686498700000 mag-aug-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-08-12:09-00 1689895200000 mag-aug-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-08-12:09-00 1715706774762 mag-aug-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-08-12:09-00 1718121129497 mag-aug-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-08-12:09-00 1721517643877 mag-aug-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-08-12:09-00 1700955993471 chipseq-aug-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-08-12:09-00 1700969719140 chipseq-aug-2
@@ -235,17 +235,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-08-12:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-08-12:09-00 1673375400000 montage-aug-3
 
 # September (2024-09-09:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-09-09:09-00 1693753400000 nanoseq-sep-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-09-09:09-00 1693903100000 nanoseq-sep-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-09-09:09-00 1694692000000 nanoseq-sep-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-09-09:09-00 1725375753824 nanoseq-sep-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-09-09:09-00 1725525524889 nanoseq-sep-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-09-09:09-00 1726314360165 nanoseq-sep-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-09-09:09-00 1684209700000 rangeland-sep-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-09-09:09-00 1687371000000 rangeland-sep-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-09-09:09-00 1690486500000 rangeland-sep-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-09-09:09-00 1715832143814 rangeland-sep-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-09-09:09-00 1718993419050 rangeland-sep-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-09-09:09-00 1722108924333 rangeland-sep-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-09-09:09-00 1684084400000 mag-sep-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-09-09:09-00 1686498700000 mag-sep-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-09-09:09-00 1689895200000 mag-sep-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-09-09:09-00 1715706774762 mag-sep-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-09-09:09-00 1718121129497 mag-sep-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-09-09:09-00 1721517643877 mag-sep-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-09-09:09-00 1700955993471 chipseq-sep-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-09-09:09-00 1700969719140 chipseq-sep-2
@@ -264,17 +264,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-09-09:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-09-09:09-00 1673375400000 montage-sep-3
 
 # October (2024-10-14:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-10-14:09-00 1693753400000 nanoseq-oct-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-10-14:09-00 1693903100000 nanoseq-oct-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-10-14:09-00 1694692000000 nanoseq-oct-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-10-14:09-00 1725375753824 nanoseq-oct-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-10-14:09-00 1725525524889 nanoseq-oct-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-10-14:09-00 1726314360165 nanoseq-oct-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-10-14:09-00 1684209700000 rangeland-oct-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-10-14:09-00 1687371000000 rangeland-oct-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-10-14:09-00 1690486500000 rangeland-oct-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-10-14:09-00 1715832143814 rangeland-oct-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-10-14:09-00 1718993419050 rangeland-oct-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-10-14:09-00 1722108924333 rangeland-oct-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-10-14:09-00 1684084400000 mag-oct-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-10-14:09-00 1686498700000 mag-oct-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-10-14:09-00 1689895200000 mag-oct-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-10-14:09-00 1715706774762 mag-oct-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-10-14:09-00 1718121129497 mag-oct-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-10-14:09-00 1721517643877 mag-oct-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-10-14:09-00 1700955993471 chipseq-oct-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-10-14:09-00 1700969719140 chipseq-oct-2
@@ -293,17 +293,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-10-14:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-10-14:09-00 1673375400000 montage-oct-3
 
 # November (2024-11-11:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-11-11:09-00 1693753400000 nanoseq-nov-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-11-11:09-00 1693903100000 nanoseq-nov-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-11-11:09-00 1694692000000 nanoseq-nov-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-11-11:09-00 1725375753824 nanoseq-nov-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-11-11:09-00 1725525524889 nanoseq-nov-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-11-11:09-00 1726314360165 nanoseq-nov-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-11-11:09-00 1684209700000 rangeland-nov-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-11-11:09-00 1687371000000 rangeland-nov-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-11-11:09-00 1690486500000 rangeland-nov-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-11-11:09-00 1715832143814 rangeland-nov-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-11-11:09-00 1718993419050 rangeland-nov-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-11-11:09-00 1722108924333 rangeland-nov-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-11-11:09-00 1684084400000 mag-nov-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-11-11:09-00 1686498700000 mag-nov-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-11-11:09-00 1689895200000 mag-nov-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-11-11:09-00 1715706774762 mag-nov-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-11-11:09-00 1718121129497 mag-nov-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-11-11:09-00 1721517643877 mag-nov-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-11-11:09-00 1700955993471 chipseq-nov-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-11-11:09-00 1700969719140 chipseq-nov-2
@@ -322,17 +322,17 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-11-11:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-11-11:09-00 1673375400000 montage-nov-3
 
 # December (2024-12-09:09-00)
-python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-12-09:09-00 1693753400000 nanoseq-dec-1
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-12-09:09-00 1693903100000 nanoseq-dec-2
-python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-12-09:09-00 1694692000000 nanoseq-dec-3
+python3 -m src.scripts.Convertor change-start-ms nanoseq-1 , 2024-12-09:09-00 1725375753824 nanoseq-dec-1
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-12-09:09-00 1725525524889 nanoseq-dec-2
+python3 -m src.scripts.Convertor change-start-ms nanoseq-2 , 2024-12-09:09-00 1726314360165 nanoseq-dec-3
 
-python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-12-09:09-00 1684209700000 rangeland-dec-1
-python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-12-09:09-00 1687371000000 rangeland-dec-2
-python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-12-09:09-00 1690486500000 rangeland-dec-3
+python3 -m src.scripts.Convertor change-start-ms rangeland-1 , 2024-12-09:09-00 1715832143814 rangeland-dec-1
+python3 -m src.scripts.Convertor change-start-ms rangeland-2 , 2024-12-09:09-00 1718993419050 rangeland-dec-2
+python3 -m src.scripts.Convertor change-start-ms rangeland-3 , 2024-12-09:09-00 1722108924333 rangeland-dec-3
 
-python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-12-09:09-00 1684084400000 mag-dec-1
-python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-12-09:09-00 1686498700000 mag-dec-2
-python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-12-09:09-00 1689895200000 mag-dec-3
+python3 -m src.scripts.Convertor change-start-ms mag-1 , 2024-12-09:09-00 1715706774762 mag-dec-1
+python3 -m src.scripts.Convertor change-start-ms mag-2 , 2024-12-09:09-00 1718121129497 mag-dec-2
+python3 -m src.scripts.Convertor change-start-ms mag-3 , 2024-12-09:09-00 1721517643877 mag-dec-3
 
 python3 -m src.scripts.Convertor change-start-ms chipseq-1 , 2024-12-09:09-00 1700955993471 chipseq-dec-1
 python3 -m src.scripts.Convertor change-start-ms chipseq-2 , 2024-12-09:09-00 1700969719140 chipseq-dec-2
@@ -351,27 +351,16 @@ python3 -m src.scripts.Convertor change-start-ms montage-2 , 2024-12-09:09-00 16
 python3 -m src.scripts.Convertor change-start-ms montage-3 , 2024-12-09:09-00 1673375400000 montage-dec-3
 
 # Move Files to Folders
-mkdir data/trace/jan 
-mv data/trace/*jan*csv data/trace/jan
-mkdir data/trace/feb
-mv data/trace/*feb*csv data/trace/feb
-mkdir data/trace/mar
-mv data/trace/*mar*csv data/trace/mar
-mkdir data/trace/apr
-mv data/trace/*apr*csv data/trace/apr
-mkdir data/trace/may
-mv data/trace/*may*csv data/trace/may
-mkdir data/trace/jun
-mv data/trace/*jun*csv data/trace/jun
-mkdir data/trace/jul
-mv data/trace/*jul*csv data/trace/jul
-mkdir data/trace/aug
-mv data/trace/*aug*csv data/trace/aug
-mkdir data/trace/sep
-mv data/trace/*sep*csv data/trace/sep
-mkdir data/trace/oct
-mv data/trace/*oct*csv data/trace/oct
-mkdir data/trace/nov
-mv data/trace/*nov*csv data/trace/nov
-mkdir data/trace/dec
-mv data/trace/*dec*csv data/trace/dec
+mkdir data/trace/shifted 
+mv data/trace/*jan*csv data/trace/shifted
+mv data/trace/*feb*csv data/trace/shifted
+mv data/trace/*mar*csv data/trace/shifted
+mv data/trace/*apr*csv data/trace/shifted
+mv data/trace/*may*csv data/trace/shifted
+mv data/trace/*jun*csv data/trace/shifted
+mv data/trace/*jul*csv data/trace/shifted
+mv data/trace/*aug*csv data/trace/shifted
+mv data/trace/*sep*csv data/trace/shifted
+mv data/trace/*oct*csv data/trace/shifted
+mv data/trace/*nov*csv data/trace/shifted
+mv data/trace/*dec*csv data/trace/shifted
