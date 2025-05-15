@@ -16,5 +16,3 @@ Cloud Carbon Footprint Method:
 Reserved Memory Energy Consumption: 0.06341471111111116kWh
 Reserved Memory Carbon Emissions: 24.914792896953234gCO2e
 % CPU [73.83%] | % Memory [26.17%]
-
-Task Runtime: 18969458.0ms
