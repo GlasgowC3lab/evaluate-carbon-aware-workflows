@@ -16,4 +16,4 @@ done
 
 mkdir output/$region
 mv output/explorer-*/*.csv output/$region
-rm -rf explorer-*/
+rm -rf output/explorer-*/
