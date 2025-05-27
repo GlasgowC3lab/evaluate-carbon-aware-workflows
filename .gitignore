@@ -3,6 +3,7 @@
 data/intensity/*marg*.csv
 data/intensity/out/*marg*.csv
 *.DS_Store
+*kubeconfig.yml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
