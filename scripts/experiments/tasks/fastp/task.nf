@@ -1,7 +1,7 @@
 DATA_1 = channel.fromPath('REPLACE_HOME/journal-paper/tasks/data/REPLACE_INPUT_FILE_1')
 
 process proc {
-    conda "bioconda::fastp=0.24.0"
+    conda "${moduleDir}/experiment.yml"
 
     input:
         path(vDATA_1)

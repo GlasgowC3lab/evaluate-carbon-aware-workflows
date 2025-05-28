@@ -31,7 +31,6 @@ cd ../
 # Update Task Files 
 find . -type f -exec sed -i 's/REPLACE_HOME/$HOME/g' {} +
 
-# fastp, fastqc, trimgalore
 find fastqc/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_1/ERR034564_1.fastq.gz/g' {} +
 find fastp/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_1/ERR034564_1.fastq.gz/g' {} +
 find trimgalore/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_1/ERR034564_1.fastq.gz/g' {} +
@@ -39,6 +38,5 @@ find trimgalore/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_1/ERR034564_1.fastq.
 find fastqc/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_2/ERR034564_2.fastq.gz/g' {} +
 find trimgalore/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_2/ERR034564_2.fastq.gz/g' {} +
 
-# bowtie2_build 
 find bowtie2_build/ -type f -exec sed -i 's/REPLACE_INPUT_FILE_3/chr17p12_trio.fa/g' {} +
 
