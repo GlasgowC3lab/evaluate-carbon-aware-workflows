@@ -1,0 +1,34 @@
+machine -- power model / fallback?
+
+gcpc2
+8core
+- gcpc2_default_minmax
+- idle: 13.626984127
+- 100%: 52.3412698413
+
+gcpn2 
+4core
+- gcpn2_default_minmax
+- idle = 2.55579743
+- max = 14.5698081
+
+gcpn1 
+- gcpn1_default_minmax
+2core
+- idle: 1.28920889085
+- max: 7.79694761126
+
+gpg13
+- gpg13_performance_linear
+
+gpg14
+- gpg14_performance_linear
+
+gpg15
+- gpg15_performance_linear
+
+gpg22
+- gpg22_performance_linear
+
+hu26
+- hu26_performance_linear
