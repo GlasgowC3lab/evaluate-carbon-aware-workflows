@@ -32,3 +32,7 @@ gpg22
 
 hu26
 - hu26_performance_linear
+
+server
+- server_performance_linear
+- server_powersave_linear 

@@ -16,6 +16,14 @@ gpg22=( 1745867691446 1745868253170 1745868816881 1745866346099 1745866770813 17
 hu26=( 1746545562846 1746546149692 1746546744212 1746544994179 1746545182611 1746545370186 1746531829259 1746532427293 1746533030700 1746533630571 1746537421451 1746541208272 )
 idx=0
 
+server=(  )  # performance
+server=(  )  # powersave
+# server-performance-task-iteration
+# server-powersave-task-iteration
+
+# prepare for governor frequency adjustments
+# prepare for governor setting performance to be used in the resource-assignment experiment (?) 
+
 # performance
 
 for i in "${machines[@]}"
