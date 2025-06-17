@@ -1,0 +1,1 @@
+2025-06-02 12:50:49	2h 18m	determined_rosalind	OK	f421ddc35d81a0561685927c03e03995	cd5557d4-86b9-4dfa-af0e-c1111d592ccf	nextflow run /input/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

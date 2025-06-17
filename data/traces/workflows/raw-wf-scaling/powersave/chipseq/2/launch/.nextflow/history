@@ -1,0 +1,1 @@
+2025-06-12 14:34:39	11h 49m 5s	zen_mandelbrot	OK	73413072355e71512cca3175a986f037	a1621161-6dbe-4b21-b872-fd825ef112d8	nextflow run /input/chipseq -profile test_full -c /experiments/experiment/chipseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

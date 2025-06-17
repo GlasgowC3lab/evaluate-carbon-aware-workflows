@@ -1,0 +1,1 @@
+2025-06-11 22:25:51	7h 23m 8s	admiring_kalman	OK	f421ddc35d81a0561685927c03e03995	4853af69-b0a0-4a5a-b7d9-51b3bf59ea0c	nextflow run /input/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

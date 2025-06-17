@@ -6,7 +6,8 @@
 			"mem_draw": 0.40752604166666667,
 			"linear": [ 0.5711151515151512, 54.82666666666669 ],
 			"min_watts": 48.166666666666664,
-			"max_watts": 104.88666666666666
+			"max_watts": 104.88666666666666,
+			"cpu_model": "Intel Xeon E5-2640"
 		}, 
 		"performance": {
 			"tdp_per_core": 11.875,
@@ -14,7 +15,8 @@
 			"mem_draw": 0.40921874999999996,
 			"linear": [ 0.7379060606060608, 61.03712121212123 ],
 			"min_watts": 49.379999999999995,
-			"max_watts": 124.93333333333334
+			"max_watts": 124.93333333333334,
+			"cpu_model": "Intel Xeon E5-2640"
 		}
 	}, 
 	"gpg14": {
@@ -24,7 +26,8 @@
 			"mem_draw": 0.35888020833333334,
 			"linear": [ 0.5664090909090908, 55.61742424242428 ],
 			"min_watts": 49.413333333333334,
-			"max_watts": 105.60666666666667
+			"max_watts": 105.60666666666667,
+			"cpu_model": "Intel Xeon E5-2640"
 		}, 
 		"performance": {
 			"tdp_per_core": 11.875,
@@ -32,7 +35,8 @@
 			"mem_draw": 0.36736979166666667,
 			"linear": [ 0.7216363636363639, 61.95848484848483 ],
 			"min_watts": 50.56666666666666,
-			"max_watts": 125.25
+			"max_watts": 125.25,
+			"cpu_model": "Intel Xeon E5-2640"
 		}
 	}, 
 	"gpg15": {
@@ -42,7 +46,8 @@
 			"mem_draw": 0.40458333333333335,
 			"linear": [ 0.6810454545454548, 60.19469696969696 ],
 			"min_watts": 52.949999999999996,
-			"max_watts": 120.30333333333334
+			"max_watts": 120.30333333333334,
+			"cpu_model": "Intel Xeon E5-2640"
 		}, 
 		"performance": {
 			"tdp_per_core": 11.875,
@@ -50,7 +55,8 @@
 			"mem_draw": 0.4091666666666667,
 			"linear": [ 0.8335848484848487, 65.72833333333334 ],
 			"min_watts": 54.88666666666666,
-			"max_watts": 138.81666666666666
+			"max_watts": 138.81666666666666,
+			"cpu_model": "Intel Xeon E5-2640"
 		}
 	}, 
 	"gpg22": {
@@ -60,7 +66,8 @@
 			"mem_draw": 0.016041666666666666,
 			"linear": [ 1.7994121212121201, 180.0912121212122 ],
 			"min_watts": 94.77333333333333,
-			"max_watts": 347.1433333333334
+			"max_watts": 347.1433333333334,
+			"cpu_model": "Intel Xeon Gold 6426Y"
 		}, 
 		"performance": {
 			"tdp_per_core": 11.5625,
@@ -68,7 +75,8 @@
 			"mem_draw": 0.016953125,
 			"linear": [ 1.6530484848484859, 193.20121212121217 ],
 			"min_watts": 117.37,
-			"max_watts": 345.76666666666665
+			"max_watts": 345.76666666666665,
+			"cpu_model": "Intel Xeon Gold 6426Y"
 		}
 	}, 
 	"server": {
@@ -77,7 +85,8 @@
 			"system_cores": 16,
 			"min_watts": 35,
 			"max_watts": 123,
-			"mem_draw": 0.392
+			"mem_draw": 0.392,
+			"cpu_model": "Intel(R) Core(TM) i7-10700T"
 		},
 		"powersave": {
 			"tdp_per_core": 4.375,
@@ -85,7 +94,8 @@
 			"mem_draw": 0.056302083333333336,
 			"linear": [ 0.2478060606060606, 16.653939393939392 ],
 			"min_watts": 2.9933333333333336,
-			"max_watts": 39.223333333333336
+			"max_watts": 39.223333333333336,
+			"cpu_model": "Intel(R) Core(TM) i7-10700T"
 		}, 
 		"performance": {
 			"tdp_per_core": 4.375,
@@ -93,7 +103,8 @@
 			"mem_draw": 0.057708333333333334,
 			"linear": [ 0.08846666666666675, 29.430909090909093 ],
 			"min_watts": 19.656666666666666,
-			"max_watts": 43.86666666666667
+			"max_watts": 43.86666666666667,
+			"cpu_model": "Intel(R) Core(TM) i7-10700T"
 		}
 	},
 	"clusterb": {
@@ -102,7 +113,8 @@
 			"system_cores": 32,
 			"mem_draw": 0.392,
 			"min_watts": 113,
-			"max_watts": 262 
+			"max_watts": 262,
+			"cpu_model": "AMD EPYC 7282"
 		}
 	},
 	"hu26": {
@@ -111,7 +123,8 @@
 			"system_cores": 32,
 			"mem_draw": 0.392,
 			"min_watts": 80,
-			"max_watts": 135
+			"max_watts": 135,
+			"cpu_model": "Intel Xeon Silver 4314"
         },
         "powersave": {
 			"tdp_per_core": 8.4375,
@@ -119,7 +132,8 @@
 			"mem_draw": 0.05203125,
 			"linear": [ 0.190339393939394, 43.47333333333334 ],
 			"min_watts": 39.81333333333333,
-			"max_watts": 60.05666666666667
+			"max_watts": 60.05666666666667,
+			"cpu_model": "Intel Xeon Silver 4314"
         },
         "performance": {
 			"tdp_per_core": 8.4375,
@@ -127,7 +141,35 @@
 			"mem_draw": 0.06839192708333333,
 			"linear": [ 0.6224515151515154, 87.76863636363638 ],
 			"min_watts": 73.09666666666668,
-			"max_watts": 139.26666666666668
+			"max_watts": 139.26666666666668,
+			"cpu_model": "Intel Xeon Silver 4314"
         }
+	},
+	"gcpc2": {
+		"default": {
+			"system_cores": 8,
+			"mem_draw": 0.392,
+			"min_watts": 13.626984127,
+			"max_watts": 52.3412698413,
+            "cpu_model": "Intel(R) Xeon(R) CPU @ 3.10GHz"
+		}
+	}, 
+	"gcpn2": {
+		"default": {
+			"system_cores": 4,
+			"mem_draw": 0.392,
+			"min_watts": 2.55579743,
+			"max_watts": 14.5698081,
+            "cpu_model": "Intel(R) Xeon(R) CPU @ 2.80GHz"
+		}
+	}, 
+	"gcpn1": {
+		"default": {
+			"system_cores": 2,
+			"mem_draw": 0.392,
+			"min_watts": 1.28920889085,
+			"max_watts": 7.79694761126,
+            "cpu_model": "Intel(R) Xeon(R) CPU @ 2.20GHz"
+		}
 	}
 }

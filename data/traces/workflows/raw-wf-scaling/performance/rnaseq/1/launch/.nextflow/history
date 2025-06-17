@@ -1,0 +1,1 @@
+2025-05-31 06:01:49	2h 25m 11s	naughty_lamarck	OK	f421ddc35d81a0561685927c03e03995	602a7e82-69f8-40ae-a800-cbd4a602ef79	nextflow run /input/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

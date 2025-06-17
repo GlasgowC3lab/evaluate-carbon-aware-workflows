@@ -1,0 +1,1 @@
+2025-06-06 07:58:22	3h 22m 28s	spontaneous_magritte	OK	73413072355e71512cca3175a986f037	a561e290-475f-498c-970a-a59a52b7d150	nextflow run /input/chipseq -profile test_full -c /experiments/experiment/chipseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

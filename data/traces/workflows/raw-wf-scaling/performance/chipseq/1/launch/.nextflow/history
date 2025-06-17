@@ -1,0 +1,1 @@
+2025-06-06 04:37:44	3h 18m 55s	distracted_boyd	OK	73413072355e71512cca3175a986f037	ff5d1c1d-e550-4e6d-8ad3-69cfb6abaecf	nextflow run /input/chipseq -profile test_full -c /experiments/experiment/chipseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

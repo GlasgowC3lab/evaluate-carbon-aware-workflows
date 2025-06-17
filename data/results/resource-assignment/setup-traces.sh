@@ -106,7 +106,7 @@ do
         # june
         python3 -m src.scripts.Convertor change-start-ms $i-bowtie2_build-1 , 2024-06-15:09-00 ${!i[0]} $i-bowtie2_build-1-jun
         python3 -m src.scripts.Convertor change-start-ms $i-bowtie2_build-2 , 2024-06-15:09-00 ${!i[1]} $i-bowtie2_build-2-jun
-        python3 -m src.scripts.Convertor change-start-ms $i-bowtie2_build-3 , 2024-06-15:09-00 ${!i[2]} $i-bowtie2_build-3
+        python3 -m src.scripts.Convertor change-start-ms $i-bowtie2_build-3 , 2024-06-15:09-00 ${!i[2]} $i-bowtie2_build-3-jun
 
         python3 -m src.scripts.Convertor change-start-ms $i-fastp-1 , 2024-06-15:11-00 ${!i[3]} $i-fastp-1-jun
         python3 -m src.scripts.Convertor change-start-ms $i-fastp-2 , 2024-06-15:11-00 ${!i[4]} $i-fastp-2-jun

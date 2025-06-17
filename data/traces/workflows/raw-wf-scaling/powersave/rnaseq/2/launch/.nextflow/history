@@ -1,0 +1,1 @@
+2025-06-11 06:13:29	16h 10m 57s	silly_perlman	OK	f421ddc35d81a0561685927c03e03995	669cd5dd-92d5-47c2-8c44-e39dceda5e8a	nextflow run /input/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

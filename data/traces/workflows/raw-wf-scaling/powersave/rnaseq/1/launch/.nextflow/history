@@ -1,0 +1,1 @@
+2025-06-10 03:36:26	7h 31m 35s	suspicious_bassi	OK	f421ddc35d81a0561685927c03e03995	20af7600-793a-4a7d-93df-ee7eb11df4d7	nextflow run /input/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

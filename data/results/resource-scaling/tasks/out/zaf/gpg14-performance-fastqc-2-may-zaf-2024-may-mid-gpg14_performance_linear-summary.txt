@@ -1,0 +1,14 @@
+Carbon Footprint Trace:
+- carbon-intensity: zaf-2024-may-mid
+- power-usage-effectiveness: 1.0
+- power model selected: gpg14_performance_linear
+- memory-power-draw: 0.392
+
+Cloud Carbon Footprint Method:
+- Energy Consumption (exc. PUE): 0.016235748403798395kWh
+- Energy Consumption (inc. PUE): 0.016235748403798395kWh
+- Memory Energy Consumption (exc. PUE): 4.990925561501899e-05kWh
+- Memory Energy Consumption (inc. PUE): 4.990925561501899e-05kWh
+- Operational Carbon Emissions: 10.770682549629656gCO2e
+- Embodied Carbon Emissions: 0.10960426014652573gCO2e
+- Total Carbon Emissions: 10.880286809776182gCO2e

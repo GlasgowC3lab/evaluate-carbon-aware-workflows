@@ -1,0 +1,1 @@
+2025-06-02 15:10:00	2h 23m 12s	zen_thompson	OK	f421ddc35d81a0561685927c03e03995	7d6771b9-b0ef-4637-ba0b-4df63a5e0f22	nextflow run /input/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config

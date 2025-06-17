@@ -1,0 +1,14 @@
+Carbon Footprint Trace:
+- carbon-intensity: nsw-2024-jan-mid-marg
+- power-usage-effectiveness: 1.0
+- power model selected: gpg13_powersave_linear
+- memory-power-draw: 0.392
+
+Cloud Carbon Footprint Method:
+- Energy Consumption (exc. PUE): 0.005082795029844278kWh
+- Energy Consumption (inc. PUE): 0.005082795029844278kWh
+- Memory Energy Consumption (exc. PUE): 4.4153089571285436e-05kWh
+- Memory Energy Consumption (inc. PUE): 4.4153089571285436e-05kWh
+- Operational Carbon Emissions: 4.092955066432222gCO2e
+- Embodied Carbon Emissions: 0.03848394681471341gCO2e
+- Total Carbon Emissions: 4.131439013246935gCO2e

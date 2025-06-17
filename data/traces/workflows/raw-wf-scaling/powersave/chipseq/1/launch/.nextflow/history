@@ -1,0 +1,1 @@
+2025-06-12 06:03:33	8h 29m 15s	elated_church	OK	73413072355e71512cca3175a986f037	bd63da2f-5423-43b7-a630-9b2af32fcc8a	nextflow run /input/chipseq -profile test_full -c /experiments/experiment/chipseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config
