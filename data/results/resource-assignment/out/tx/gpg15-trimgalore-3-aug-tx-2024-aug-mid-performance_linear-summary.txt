@@ -9,6 +9,11 @@ Cloud Carbon Footprint Method:
 - Energy Consumption (inc. PUE): 0.03532599625704162kWh
 - Memory Energy Consumption (exc. PUE): 0.0kWh
 - Memory Energy Consumption (inc. PUE): 0.0kWh
-- Operational Carbon Emissions: 9.116579854054732gCO2e
+- Operational Carbon Emissions: 12.569336200987358gCO2e
 - Embodied Carbon Emissions: 0.0gCO2e
-- Total Carbon Emissions: 9.116579854054732gCO2e
+- Total Carbon Emissions: 12.569336200987358gCO2e
+
+Reserved Memory Energy Consumption: 0.013379146537499999kWh
+Reserved Memory Carbon Emissions: 3.452756346932625gCO2e
+
+% CPU [3.55%] | % Memory [27.47%]

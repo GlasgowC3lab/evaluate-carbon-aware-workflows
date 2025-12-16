@@ -1,0 +1,8 @@
+Detailed Report for gcpn2-fastqc-3-feb-nsw-2024-feb-mid-marg-default_minmax
+Top 10 Tasks - ranked by average CO2e then runtime:
+proc:1 average_co2e=0.3154 runtime_s=300.00
+
+Top 10 Tasks - ranked by marginal CO2e then runtime:
+proc:1 marginal_co2e=0.3154 runtime_s=300.00
+
+The top 10 marginal CO2e tasks coincide with the top 10 average CO2e tasks.

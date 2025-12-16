@@ -1,0 +1,8 @@
+Detailed Report for gpg14-fastp-3-dec-tyo-2024-dec-mid-marg-performance_linear
+Top 10 Tasks - ranked by average CO2e then runtime:
+proc:1 average_co2e=0.1168 runtime_s=273.03
+
+Top 10 Tasks - ranked by marginal CO2e then runtime:
+proc:1 marginal_co2e=0.1168 runtime_s=273.03
+
+The top 10 marginal CO2e tasks coincide with the top 10 average CO2e tasks.

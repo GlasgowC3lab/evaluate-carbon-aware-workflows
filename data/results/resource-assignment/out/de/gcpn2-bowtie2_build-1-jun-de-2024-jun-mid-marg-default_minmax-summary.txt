@@ -12,3 +12,8 @@ Cloud Carbon Footprint Method:
 - Operational Carbon Emissions: 0.0gCO2e
 - Embodied Carbon Emissions: 0.0gCO2e
 - Total Carbon Emissions: 0.0gCO2e
+
+Reserved Memory Energy Consumption: 0.0012702089244444443kWh
+Reserved Memory Carbon Emissions: 0.0gCO2e
+
+% CPU [16.60%] | % Memory [69.28%]
