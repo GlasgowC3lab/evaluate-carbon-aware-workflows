@@ -15,50 +15,58 @@ do
     for task in "${tasks[@]}"
     do
         # gpg13
-        python3 -m src.scripts.IchnosCF gpg13-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg13_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg13-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg13_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg13-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg13_performance_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg13-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg13-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg13-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
 
-        python3 -m src.scripts.IchnosCF gpg13-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg13_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg13-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg13_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg13-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg13_performance_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg13-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg13-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg13-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
 
         # gpg14
-        python3 -m src.scripts.IchnosCF gpg14-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg14_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg14-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg14_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg14-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg14_performance_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg14-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg14-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg14-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
 
-        python3 -m src.scripts.IchnosCF gpg14-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg14_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg14-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg14_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg14-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg14_performance_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg14-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg14-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg14-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
 
         # gpg15
-        python3 -m src.scripts.IchnosCF gpg15-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg15_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg15-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg15_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg15-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg15_performance_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg15-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg15-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg15-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 64 1
 
-        python3 -m src.scripts.IchnosCF gpg15-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg15_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg15-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg15_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg15-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg15_performance_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg15-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg15-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
+        python3 -m src.scripts.IchnosCF gpg15-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 64 1
 
         # gpg22
-        python3 -m src.scripts.IchnosCF gpg22-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg22_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg22-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg22_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg22-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg22_performance_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg22-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 128 1
+        python3 -m src.scripts.IchnosCF gpg22-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 128 1
+        python3 -m src.scripts.IchnosCF gpg22-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 128 1
 
-        python3 -m src.scripts.IchnosCF gpg22-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg22_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg22-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg22_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg22-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg22_performance_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg22-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 128 1
+        python3 -m src.scripts.IchnosCF gpg22-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 128 1
+        python3 -m src.scripts.IchnosCF gpg22-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 128 1
 
         # hu26
-        python3 -m src.scripts.IchnosCF hu26-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid hu26_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF hu26-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid hu26_performance_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF hu26-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid hu26_performance_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF hu26-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 256 1
+        python3 -m src.scripts.IchnosCF hu26-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 256 1
+        python3 -m src.scripts.IchnosCF hu26-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 256 1
 
-        python3 -m src.scripts.IchnosCF hu26-$task-performance-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg hu26_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF hu26-$task-performance-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg hu26_performance_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF hu26-$task-performance-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg hu26_performance_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF hu26-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 256 1
+        python3 -m src.scripts.IchnosCF hu26-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 256 1
+        python3 -m src.scripts.IchnosCF hu26-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 256 1
 
+        # server
+        python3 -m src.scripts.IchnosCF server-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 32 1
+        python3 -m src.scripts.IchnosCF server-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 32 1
+        python3 -m src.scripts.IchnosCF server-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid performance_linear 60 1.0 0.392 32 1
+
+        python3 -m src.scripts.IchnosCF server-performance-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 32 1
+        python3 -m src.scripts.IchnosCF server-performance-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 32 1
+        python3 -m src.scripts.IchnosCF server-performance-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg performance_linear 5 1.0 0.392 32 1
     done
 
     month_no=$(($month_no+1))
@@ -73,49 +81,58 @@ do
     for task in "${tasks[@]}"
     do
         # gpg13
-        python3 -m src.scripts.IchnosCF gpg13-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg13_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg13-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg13_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg13-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg13_powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg13-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg13-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg13-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
 
-        python3 -m src.scripts.IchnosCF gpg13-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg13_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg13-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg13_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg13-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg13_powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg13-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg13-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg13-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
 
         # gpg14
-        python3 -m src.scripts.IchnosCF gpg14-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg14_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg14-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg14_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg14-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg14_powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg14-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg14-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg14-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
 
-        python3 -m src.scripts.IchnosCF gpg14-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg14_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg14-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg14_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg14-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg14_powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg14-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg14-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg14-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
 
         # gpg15
-        python3 -m src.scripts.IchnosCF gpg15-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg15_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg15-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg15_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg15-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg15_powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg15-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg15-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg15-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
 
-        python3 -m src.scripts.IchnosCF gpg15-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg15_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg15-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg15_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg15-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg15_powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg15-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg15-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg15-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
 
         # gpg22
-        python3 -m src.scripts.IchnosCF gpg22-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg22_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg22-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg22_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg22-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid gpg22_powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg22-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg22-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg22-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
 
-        python3 -m src.scripts.IchnosCF gpg22-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg22_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg22-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg22_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF gpg22-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg gpg22_powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg22-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg22-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF gpg22-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
 
         # hu26
-        python3 -m src.scripts.IchnosCF hu26-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid hu26_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF hu26-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid hu26_powersave_linear 60 1.0 0.392
-        python3 -m src.scripts.IchnosCF hu26-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid hu26_powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF hu26-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF hu26-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
+        python3 -m src.scripts.IchnosCF hu26-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392
 
-        python3 -m src.scripts.IchnosCF hu26-$task-powersave-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg hu26_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF hu26-$task-powersave-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg hu26_powersave_linear 5 1.0 0.392
-        python3 -m src.scripts.IchnosCF hu26-$task-powersave-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg hu26_powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF hu26-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF hu26-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+        python3 -m src.scripts.IchnosCF hu26-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392
+
+        # server
+        python3 -m src.scripts.IchnosCF server-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392 32 1
+        python3 -m src.scripts.IchnosCF server-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392 32 1
+        python3 -m src.scripts.IchnosCF server-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid powersave_linear 60 1.0 0.392 32 1
+
+        python3 -m src.scripts.IchnosCF server-powersave-$task-1-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392 32 1
+        python3 -m src.scripts.IchnosCF server-powersave-$task-2-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392 32 1
+        python3 -m src.scripts.IchnosCF server-powersave-$task-3-${months[$month_no]} $region-2024-${months[$month_no]}-mid-marg powersave_linear 5 1.0 0.392 32 1
     done
 
     month_no=$(($month_no+1))
