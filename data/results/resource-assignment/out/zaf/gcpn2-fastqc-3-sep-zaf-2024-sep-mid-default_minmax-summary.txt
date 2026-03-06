@@ -1,0 +1,19 @@
+Carbon Footprint Trace:
+- carbon-intensity: zaf-2024-sep-mid
+- power-usage-effectiveness: 1.0
+- power model selected: default_minmax
+- memory-power-draw: 0.392
+
+Cloud Carbon Footprint Method:
+- Energy Consumption (exc. PUE): 0.0011640308573094926kWh
+- Energy Consumption (inc. PUE): 0.0011640308573094926kWh
+- Memory Energy Consumption (exc. PUE): 0.0kWh
+- Memory Energy Consumption (inc. PUE): 0.0kWh
+- Operational Carbon Emissions: 2.422345381970426gCO2e
+- Embodied Carbon Emissions: 0.0gCO2e
+- Total Carbon Emissions: 2.422345381970426gCO2e
+
+Reserved Memory Energy Consumption: 0.002615214933333333kWh
+Reserved Memory Carbon Emissions: 1.6762481636693334gCO2e
+
+% CPU [16.70%] | % Memory [69.20%]

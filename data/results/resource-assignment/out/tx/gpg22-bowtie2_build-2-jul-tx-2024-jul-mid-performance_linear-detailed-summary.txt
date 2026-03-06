@@ -1,0 +1,8 @@
+Detailed Report for gpg22-bowtie2_build-2-jul-tx-2024-jul-mid-performance_linear
+Top 10 Tasks - ranked by average CO2e then runtime:
+proc:1 average_co2e=0.1040 runtime_s=526.36
+
+Top 10 Tasks - ranked by marginal CO2e then runtime:
+proc:1 marginal_co2e=0.1040 runtime_s=526.36
+
+The top 10 marginal CO2e tasks coincide with the top 10 average CO2e tasks.

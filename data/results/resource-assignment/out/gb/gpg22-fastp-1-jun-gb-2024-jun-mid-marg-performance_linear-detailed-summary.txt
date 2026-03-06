@@ -1,0 +1,8 @@
+Detailed Report for gpg22-fastp-1-jun-gb-2024-jun-mid-marg-performance_linear
+Top 10 Tasks - ranked by average CO2e then runtime:
+proc:1 average_co2e=0.0204 runtime_s=97.07
+
+Top 10 Tasks - ranked by marginal CO2e then runtime:
+proc:1 marginal_co2e=0.0204 runtime_s=97.07
+
+The top 10 marginal CO2e tasks coincide with the top 10 average CO2e tasks.

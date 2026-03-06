@@ -37,38 +37,37 @@
 # carbon intensity files 
 de-01102023-31122023
 
-# commands 
--- no time adjusting commands necessary, all occurred in 2023
+# COMMANDS
 
 # 2 nodes
-python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 2
-python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 2
-python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 2
+python3 -m src.scripts.IchnosCF chipseq-1 de-01102023-31122023 default_minmax 60 1.0 0.392 128 2
+python3 -m src.scripts.IchnosCF chipseq-2 de-01102023-31122023 default_minmax 60 1.0 0.392 128 2
+python3 -m src.scripts.IchnosCF chipseq-3 de-01102023-31122023 default_minmax 60 1.0 0.392 128 2
 
-python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 2
-python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 2
-python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 2
+python3 -m src.scripts.IchnosCF chipseq-1 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 2
+python3 -m src.scripts.IchnosCF chipseq-2 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 2
+python3 -m src.scripts.IchnosCF chipseq-3 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 2
 
 -- estimates around 10kg CO2e
 
 # 4 nodes
-python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 4
-python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 4
-python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 4
+python3 -m src.scripts.IchnosCF chipseq-1 de-01102023-31122023 default_minmax 60 1.0 0.392 128 4
+python3 -m src.scripts.IchnosCF chipseq-2 de-01102023-31122023 default_minmax 60 1.0 0.392 128 4
+python3 -m src.scripts.IchnosCF chipseq-3 de-01102023-31122023 default_minmax 60 1.0 0.392 128 4
 
-python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 4
-python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 4
-python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 4
+python3 -m src.scripts.IchnosCF chipseq-1 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 4
+python3 -m src.scripts.IchnosCF chipseq-2 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 4
+python3 -m src.scripts.IchnosCF chipseq-3 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 4
 -- estimates around 9kg CO2e 
 
 # 8 nodes 
-python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 8
-python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 8
-python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023 113.0 262.0 1.0 0.392 128.0 8
+python3 -m src.scripts.IchnosCF chipseq-1 de-01102023-31122023 default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF chipseq-2 de-01102023-31122023 default_minmax 60 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF chipseq-3 de-01102023-31122023 default_minmax 60 1.0 0.392 128 8
 
-python3 -m src.scripts.CarbonFootprint chipseq-1 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 8
-python3 -m src.scripts.CarbonFootprint chipseq-2 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 8
-python3 -m src.scripts.CarbonFootprint chipseq-3 de-01102023-31122023-marg 113.0 262.0 1.0 0.392 128.0 8
+python3 -m src.scripts.IchnosCF chipseq-1 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF chipseq-2 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 8
+python3 -m src.scripts.IchnosCF chipseq-3 de-01102023-31122023-marg default_minmax 5 1.0 0.392 128 8
 
 -- estimates around 7kg CO2e 
 
